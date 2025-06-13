@@ -1,0 +1,146 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Ensure full height for container */
+html, body {
+  height: 100%;
+}
+/* Container Styles */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Calculator Styles */
+.calculator {
+  background: #242530;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  position: relative;
+  font-size: 60px;
+}
+
+/* General Button Styles */
+.calculator form input[type="button"] {
+    width: 15%; 
+    height: 45px; 
+    margin: 5px 0; 
+    font-size: 20px; 
+    border-radius: 25px; 
+    border: none; 
+    background-color: #404258;
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    -webkit-transition: background-color 0.3s ease; /* Added vendor prefix */
+    -moz-transition: background-color 0.3s ease; /* Added vendor prefix */
+}
+/* Specific Button Styles */
+.calculator form input.operator {
+    background-color:#F49D1A;
+  }
+    /* Hover Effect for Operators */
+  .calculator form input.operator:hover { 
+    background-color: #e67e22; /* Adjusted hover color for better visibility */
+  }
+
+
+/* Hover Effect for Buttons */
+.calculator form input[type="button"]:hover {
+    background-color: #c3c7f4;
+}
+
+.calculator form input.Hist {
+  background-color: #f39c12;
+  width: 35%;
+}
+
+/* Equal Button Specific Style */
+.calculator form input.equal {
+    background-color: #f39c12; 
+    font-weight: bold; 
+    width: 35%;
+}
+
+/* Hover Effect for Equal Button */
+.calculator form input.equal:hover {
+    background-color: #e67e22; 
+}
+/* Calculator On Button*/
+.calculator form input.on {
+    background-color: #e9240e; 
+    font-weight: bold; 
+    width: 25%;
+}
+/* Display Styles */
+.display {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+/* Display Input Styles */
+.display input {
+    width: 100%; 
+    height: 60px; 
+    font-size: 24px; 
+    text-align: right; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 10px; 
+    background-color: #3A3F77;
+    color: white; 
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); 
+    box-sizing: border-box; 
+
+
+}
+.backspace {
+    width: 15%; 
+    height: 45px; 
+    margin: 5px 0; 
+    font-size: 20px; 
+    border-radius: 25px; 
+    border: none; 
+    background-color: #404258; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* Hover Effect for Backspace Button */
+.backspace:hover {
+    background-color: #c3c7f4; 
+}
+
+.calculator form input.DEL {
+  background-color: #f312e4; 
+  font-weight: bold; 
+  width: 25%;
+} 
+/* {
+    width: 25%; 
+    height: 45px; 
+    margin: 5px 0; 
+    font-size: 20px; 
+    border-radius: 25px; 
+    border: none; 
+    background-color: #404258; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); 
+} */
