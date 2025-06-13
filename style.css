@@ -131,16 +131,3 @@ html, body {
   font-weight: bold; 
   width: 25%;
 } 
-/* {
-    width: 25%; 
-    height: 45px; 
-    margin: 5px 0; 
-    font-size: 20px; 
-    border-radius: 25px; 
-    border: none; 
-    background-color: #404258; 
-    color: white; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); 
-} */
